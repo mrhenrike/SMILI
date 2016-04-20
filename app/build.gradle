@@ -3,10 +3,9 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
-
     defaultConfig {
         applicationId "br.edu.estaciofcat.smiliapp"
-        minSdkVersion 16
+        minSdkVersion 17
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -15,6 +14,15 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+        configVersion2 {
+            minSdkVersion 18
+            applicationId 'br.edu.estaciofcat.smiliapp'
+            targetSdkVersion 19
+            versionCode 1
+            versionName '1.2'
         }
     }
 }

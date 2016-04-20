@@ -10,49 +10,64 @@
         android:focusableInTouchMode="false"
         android:background="@drawable/logo_busca"
         android:layout_marginTop="11dp"
-        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
-    <ImageButton
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnBuscaNome"
-        android:background="@drawable/btn_acao_buscanome"
+        android:background="@drawable/btn_acao_busca"
         android:onClick="acao_BuscarNome"
         android:layout_marginTop="12dp"
         android:layout_below="@+id/logoBusca"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_centerHorizontal="true"
+        android:text="@string/busca_nome"
+        android:clickable="true"
+        android:enabled="true"
+        android:textColor="@color/color_text_button"
+        android:textSize="@dimen/textSizeButton"/>
 
-    <ImageButton
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnBuscaMatr"
-        android:background="@drawable/btn_acao_buscamatr"
-
+        android:background="@drawable/btn_acao_busca"
         android:layout_below="@+id/btnBuscaNome"
-        android:layout_alignLeft="@+id/btnBuscaNome"
-        android:layout_alignStart="@+id/btnBuscaNome"
-        android:onClick="acao_BuscarMatr" />
+        android:onClick="acao_BuscarMatr"
+        android:layout_centerHorizontal="true"
+        android:text="@string/busca_matricula"
+        android:clickable="true"
+        android:enabled="true"
+        android:textColor="@color/color_text_button"
+        android:textSize="@dimen/textSizeButton"/>
 
-    <ImageButton
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnBuscaCurso"
-        android:background="@drawable/btn_acao_buscacurso"
+        android:background="@drawable/btn_acao_busca"
         android:layout_below="@+id/btnBuscaMatr"
-        android:layout_alignLeft="@+id/btnBuscaMatr"
-        android:layout_alignStart="@+id/btnBuscaMatr" />
+        android:layout_centerHorizontal="true"
+        android:text="@string/busca_curso"
+        android:clickable="true"
+        android:enabled="true"
+        android:textColor="@color/color_text_button"
+        android:textSize="@dimen/textSizeButton"/>
 
-    <ImageButton
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/btnVoltar"
-        android:background="@drawable/btn_acao_voltar"
+        android:background="@drawable/btn_acao_acesso"
         android:onClick="acao_acessarLayoutHome"
         android:layout_below="@+id/btnBuscaCurso"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="13dp" />
+        android:layout_marginTop="13dp"
+        android:text="@string/btn_voltar"
+        android:clickable="true"
+        android:enabled="true"
+        android:textColor="@color/color_text_button"
+        android:textSize="@dimen/textSizeButton"/>
 
     <ImageView
         android:layout_width="wrap_content"

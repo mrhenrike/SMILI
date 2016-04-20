@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">S.M.I.L.I.</string>
+    <string name="busca_matricula">Digite Sua Matrícula:</string>
+    <string name="busca_nome">Digite Seu Nome:</string>
+    <string name="busca_curso">Selecione Seu Curso:</string>
+    <string name="btn_busca">Buscar</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="btn_ajuda">Ajuda</string>
+    <string name="btn_sobre">Sobre</string>
+</resources>

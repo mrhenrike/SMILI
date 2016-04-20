@@ -1,11 +1,11 @@
 <resources>
-    <string name="app_name">S.M.I.L.I.</string>
-    <string name="busca_matricula">Digite Sua Matrícula:</string>
-    <string name="busca_nome">Digite Seu Nome:</string>
-    <string name="busca_curso">Selecione Seu Curso:</string>
-    <string name="btn_busca">Buscar</string>
-    <string name="btn_voltar">Voltar</string>
-    <string name="btn_entrar">Entrar</string>
-    <string name="btn_ajuda">Ajuda</string>
-    <string name="btn_about">Sobre</string>
+    <string name="app_name" translatable="false">S.M.I.L.I.</string>
+    <string name="btn_sobre">About</string>
+    <string name="btn_ajuda">Help</string>
+    <string name="btn_busca">Search</string>
+    <string name="btn_entrar">Enter</string>
+    <string name="btn_voltar">Back</string>
+    <string name="busca_curso">Select Your Course:</string>
+    <string name="busca_matricula">Enter With Your ID:</string>
+    <string name="busca_nome">Enter With Your Name:</string>
 </resources>

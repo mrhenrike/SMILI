@@ -9,7 +9,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="br.edu.estaciofcat.smiliapp.MainActivity"
     android:background="@drawable/bg_home"
-    >
+    android:clickable="true">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -18,17 +18,36 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/logo_home"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:focusableInTouchMode="false" />
+        android:layout_centerHorizontal="true" />
 
-    <ImageButton
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/btn_entrar"
+    android:id="@+id/btnEntrar"
+    android:background="@drawable/btn_acao_acesso"
+    android:clickable="true"
+    android:enabled="true"
+    android:onClick="acao_acessarLayoutBusca"
+    android:textColor="@color/color_text_button"
+    android:textSize="@dimen/textSizeButton"
+    android:layout_below="@+id/logoHome"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="29dp" />
+
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btnEntrar"
-        android:onClick="acao_acessarLayoutBusca"
-        android:background="@drawable/btn_acao_entrar"
+        android:text="@string/btn_ajuda"
+        android:id="@+id/btnAjuda"
+        android:background="@drawable/btn_acao_acesso"
+        android:clickable="true"
+        android:enabled="true"
+        android:onClick="screenHelp"
+        android:textColor="@color/color_text_button"
+        android:textSize="@dimen/textSizeButton"
         android:layout_below="@+id/logoHome"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp" />
+        android:layout_marginTop="79dp" />
 
 </RelativeLayout>
